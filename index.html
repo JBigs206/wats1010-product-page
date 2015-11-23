@@ -18,6 +18,7 @@
              "Javascript" on the Bootstrap documentation site. -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+		<link rel="stylesheet" href="main.css">
         <!-- End Bootstrap CSS Framework -->
 
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
@@ -27,10 +28,11 @@
 
     </head>
     <body>
+		<header>
         <!-- Note: If you do not see a lamp icon in the heading below
              when you view this file in a web browser, then there is an issue
              with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
+        <!--h1 class="header"><span class="glyphicon glyphicon-lamp"></span> API SUPERSTORE</h1-->
         <!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
 
@@ -50,5 +52,118 @@
 
         <!-- TODO: Create a call to action link to get users to sign up for the
              service. -->
+			
+		</header>	
+			<div class = "navbar navbar-default navbar-static-top">
+				<div class = "container">
+					<div class ="collapse navbar-collapse navHeaderCollapse">
+						<ul class ="nav navbar-nav navbar-right">
+							<li><a href ="#video">Video</a></li>
+							<li><a href ="#Features">Features</a></li>
+							<li><a href ="#Testimonials">Testimonials</a></li>
+							<li><a href ="#Share">Share</a></li>
+							<li><a href ="#SignUp" data-toggle="modal">Sign Up</a></li>
+							<li><a href = "#contact" data-toggle="modal">Contact</a></li>
+						</ul>	
+					</div>	
+				</div>	
+			</div>	
+		
+		
+		
+			<div class = "About">
+				<h2>About API Superstore</h2>
+				<div class ="AboutBody">
+					<p>The API Superstore is the leading producer of organized API’s. We specialize 
+						in organizing all the API’s you will ever need in a professional way. Customer 
+						satisfaction is our top priority. Our goal is to make sure you receive all the API’s 
+						you desire in the most enjoyable way possible.</p>
+					<p>Since 2015, we have been the leading producer of API organization. Our leading method 
+						of using artificial intelligent robots as slave labor allows for API Superstore to work 
+						around the clock and provide you with service 24 hours a 7 days a week. No more having to 
+						wait around for weeks to get your personalized API’s. Our turnaround time is 30 minutes or less!</p>
+					<p>We take pride in our API organization skills and plan to continue to deliver quality 
+						products to our consumers for years to come. With our new life time membership program, 
+						we can insure that you will never go a day in your life without organized API’s. All new 
+						clients are automatically inaugurated into a life time membership that only cost a low 
+						$19.99 yearly fee! Now your API organization will be pain free for the rest of your life.</p>
+				</div>	
+			</div>	
+		
+			<div class ="Video">
+				<h2 id ="video">Video<h2>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
+				
+			</div>	
+			
+			<div class ="Features">
+				<h2 id ="Features">Features</h2>
+				<div class ="ListFeatures">
+					<p id ="left">Organize and alphabetize all the API’s in the world just for you!</P><br><br><br>
+					<p id ="right">We will resell this organized list of API’s back to you with HUGE markup!</p><br><br><br>
+					<p id ="left">Let API Superstore help you to help YOURSELF!</p><br><br><br>
+					<p id ="right">Regular daily notifications on Facebook and Twitter!</p><br><br><br>
+				</div>
+			</div>	
+			
+			<div class ="Testimonials">
+				<h2 id ="Testimonials">Testimonials</h2>
+				<div class="Customers">
+					<p id="left">“I love API Superstore! They are the best API organizer out there!”</p><br><br><br>
+					<p id="right">“API Superstore saved my life! Literally!”</p><br><br><br>
+					<p id="left">“I will be an API Superstore customer for life!”</p><br><br><br>
+					<p id="right">“The best part of API Superstore are definitely the Facebook notifications.” They update you every 5 minutes!”</p><br><br><br>
+					
+				</div>
+			</div>	
+			
+			<div class = "Share">
+				<h2 id="Share">Share Your Links Here!</h2>
+				<div class = "links">
+					<div class = "modal-dialog">
+						<div class ="modal-content">
+							<form class ="form-horizontal">
+								<div class ="modal-header">
+									<h4>Share</h4>
+								</div>
+								<div class = "modal-body">
+									<dv class ="form-group">
+										<label for ="contact-name" class = "col-lg-2 control-label"> Link: </label>
+										<div class = "col-lg-10">
+											<input type = "text" class = "form-control" id = "contact-name" placeholder = "URL">
+										</div>	
+								</div>	
+						</div>	
+						<div class = "modal-footer">
+							<a class = "btn btn-default">Send</a>		
+						</div>	
+					</div>
+					
+				</div>	
+			</div>	
+
+					
+			<div class = "modal fade" id= "contact" role = "dialog">
+				<div class = "modal-dialog">
+					<div class = "modal-content">
+						<div class = "modal-header">
+							<p>Test</p>
+						</div>	
+					</div>	
+				</div>	
+			</div>	
+					
+			<div class = "modal fade" id= "SignUp" role = "dialog">
+				<div class = "modal-dialog">
+					<div class = "modal-content">
+						<div class = "modal-header">
+							<p>Test</p>
+						</div>	
+					</div>	
+				</div>	
+			</div>	
+			<script src="js/bootstrap.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     </body>
 </html>
+

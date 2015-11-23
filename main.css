@@ -4,5 +4,42 @@
 body {
     padding-top: 30px;
     padding-bottom: 20px;
-    color: green;
+    color: #6CB33C;
+	background-color:#022164;
 }
+header{
+	min-height: 300px;
+	background-image: url("../assets/logos/api_superstore_logo_bg.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+/*.header{
+	display: block;
+	text-align: center;
+	margin: 50px;
+	padding: 50px;
+	
+}*/
+
+h2{
+	text-align:center;
+}
+
+ul{
+	text-align: center;
+}
+
+.AboutBody{
+	padding: 50px;
+	margin: 50px;
+}
+
+#left{
+	padding-left: 200px;
+}
+
+#right{
+	padding-left: 700px;
+}
+
