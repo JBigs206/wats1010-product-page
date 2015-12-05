@@ -19,12 +19,20 @@
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
 		<link rel="stylesheet" href="main.css">
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<script src="js/bootstrap.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		
         <!-- End Bootstrap CSS Framework -->
 
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="favicon" href="favicon.ico">
+		
 
     </head>
     <body>
@@ -57,22 +65,26 @@
 			<div class = "navbar navbar-default navbar-static-top">
 				<div class = "container">
 					<div class ="collapse navbar-collapse navHeaderCollapse">
-						<ul class ="nav navbar-nav navbar-right">
-							<li><a href ="#video">Video</a></li>
-							<li><a href ="#Features">Features</a></li>
-							<li><a href ="#Testimonials">Testimonials</a></li>
-							<li><a href ="#Share">Share</a></li>
-							<li><a href ="#SignUp" data-toggle="modal">Sign Up</a></li>
-							<li><a href = "#contact" data-toggle="modal">Contact</a></li>
+						
+						<ul class ="nav navbar "> <!--Removed navbar-nav to center buttons -->
+							
+							<li class = "col-sm-2"><a href ="#video" class="slide-center-out">Video</a></li>
+							<li class = "col-sm-2"><a href ="#Features" class="slide-center-out">Features</a></li>
+							<li class = "col-sm-2"><a href ="#Testimonials" class="slide-center-out">Testimonials</a></li>
+							<li class = "col-sm-2"><a href ="#Share" class="slide-center-out">Share</a></li>
+							<li class = "col-sm-2"><a href ="#SignUp" data-toggle="modal" class="slide-center-out">Sign Up</a></li>
+							<li class = "col-sm-2"><a href="#Contact" data-toggle="modal" class="slide-center-out">Contact</a></li>
+							
 						</ul>	
+						
 					</div>	
 				</div>	
 			</div>	
 		
 		
-		
+		<br><br><br><br><br>
 			<div class = "About">
-				<h2>About API Superstore</h2>
+				<h2><b>About API Superstore</b></h2>
 				<div class ="AboutBody">
 					<p>The API Superstore is the leading producer of organized API’s. We specialize 
 						in organizing all the API’s you will ever need in a professional way. Customer 
@@ -89,36 +101,112 @@
 						$19.99 yearly fee! Now your API organization will be pain free for the rest of your life.</p>
 				</div>	
 			</div>	
-		
+		<br><br><br><br><br>
 			<div class ="Video">
-				<h2 id ="video">Video<h2>
+				<h2 id ="video"><b>Informative Video</b><h2>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
 				
 			</div>	
-			
+			<br><br><br><br><br>
 			<div class ="Features">
-				<h2 id ="Features">Features</h2>
+				<h2 id ="Features"><b>Features</b></h2>
 				<div class ="ListFeatures">
-					<p id ="left">Organize and alphabetize all the API’s in the world just for you!</P><br><br><br>
-					<p id ="right">We will resell this organized list of API’s back to you with HUGE markup!</p><br><br><br>
-					<p id ="left">Let API Superstore help you to help YOURSELF!</p><br><br><br>
-					<p id ="right">Regular daily notifications on Facebook and Twitter!</p><br><br><br>
+					<p id = "square1" ><span id="text-square1">Organize and alphabetize all the API’s in the world just for you!</span></p>
+					<p id = "square2" ><span id="text-square2">We will resell this organized list of API’s back to you with HUGE markup!</span></p>
+					<p id = "square3"><span id="text-square3">Let API Superstore help you to help YOURSELF!</span></p>
+					<p id = "square4"><span id="text-square4">Regular daily notifications on Facebook and Twitter!</span></p>
 				</div>
 			</div>	
-			
-			<div class ="Testimonials">
-				<h2 id ="Testimonials">Testimonials</h2>
-				<div class="Customers">
-					<p id="left">“I love API Superstore! They are the best API organizer out there!”</p><br><br><br>
-					<p id="right">“API Superstore saved my life! Literally!”</p><br><br><br>
-					<p id="left">“I will be an API Superstore customer for life!”</p><br><br><br>
-					<p id="right">“The best part of API Superstore are definitely the Facebook notifications.” They update you every 5 minutes!”</p><br><br><br>
-					
-				</div>
-			</div>	
-			
+			<br><br><br><br><br>
+				
+				
+				
+				
+<div class="container">
+  <div class="row">
+    <div class='col-md-offset-2 col-md-8 text-center'>
+		<h2 id="Testimonials"><b>Testimonials</b></h2>
+		<h3>See What People Are Saying!</h3><br><br>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-offset-2 col-md-8'>
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="1"></li>
+          <li data-target="#quote-carousel" data-slide-to="2"></li>
+		  <li data-target="#quote-carousel" data-slide-to="3"></li>
+        </ol>
+        
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner" data-pause="false"> 
+        
+          <!-- Quote 1 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+				  <div class="col-sm-2 text-center"></div>
+                <div class="col-md-9">
+					<p><i>I love API Superstore! They are the best API organizer out there!</i></p>
+                  <small>Bob Bobertson</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+               <div class="col-sm-3 text-center"></div>
+                <div class="col-md-9">
+					<p><i>API Superstore saved my life! Literally!</i></p>
+                  <small>Abe Lincoln</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-2 text-center"></div>
+                <div class="col-md-8">
+					<p><i>I will be an API Superstore customer for life!</i></p>
+                  <small>Steve Stevens</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+		<!-- Quote 4 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-2 text-center"></div>
+                <div class="col-md-8">
+                  <p><i>The best part of API Superstore are definitely the Facebook notifications.” They update you every 5 minutes!</i></p>
+                  <small>Mother Theresa</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>	
+        </div>
+        
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+      </div>                          
+    </div>
+  </div>
+</div>
+				
+				
+				
+				
+			<br><br><br><br><br><br><br><br><br>
 			<div class = "Share">
-				<h2 id="Share">Share Your Links Here!</h2>
+				<h2 id="Share"><b>Share Your Links Here!</b></h2>
 				<div class = "links">
 					<div class = "modal-dialog">
 						<div class ="modal-content">
@@ -135,7 +223,7 @@
 								</div>	
 						</div>	
 						<div class = "modal-footer">
-							<a class = "btn btn-default">Send</a>		
+							<a tabindex="0" class="btn btn-lg btn-danger bd-popover" role="button" data-toggle="popover" data-trigger="focus" title="Click to Dismiss" data-content="Thanks for sharing!">Send</a>	
 						</div>	
 					</div>
 					
@@ -143,27 +231,85 @@
 			</div>	
 
 					
-			<div class = "modal fade" id= "contact" role = "dialog">
+			<div class = "modal fade" id= "Contact" role = "dialog">
 				<div class = "modal-dialog">
 					<div class = "modal-content">
 						<div class = "modal-header">
-							<p>Test</p>
+							<h4 id="contact-header"><b>Contact Us</b></h4>
+						</div>	
+						<div class = "modal-body">
+							<form>
+								<div class = "big-icon">
+									<div id="contact-btn" style="cursor:pointer">
+									<i class="fa fa-facebook" id="facebook"></i>
+									<i class="fa fa-twitter" id="twitter"></i>
+									<i class="fa fa-google-plus" id="google"></i>
+									<i class="fa fa-weixin" id="weChat"></i>
+									<i class="fa fa-envelope" id="envelope"></i>
+									</div>	
+								</div>	
+							</form>	
 						</div>	
 					</div>	
 				</div>	
 			</div>	
 					
-			<div class = "modal fade" id= "SignUp" role = "dialog">
-				<div class = "modal-dialog">
-					<div class = "modal-content">
-						<div class = "modal-header">
-							<p>Test</p>
-						</div>	
+			<div class = "modal fade" id = "SignUp" role = "dialog">
+					<div class = "modal-dialog">
+						<div class = "modal-content">
+							<div class = "modal-header">
+								<h4 id="SignUp-header">Sign Up</h4>
+							</div>
+							<div class = "modal-body">
+								<form>
+									<p>Name: <input type = "text" name = "name" size="15" maxlength="30" /></p>
+									<p>Email: <input type = "text" name = "email" size="15" maxlength="50" /></p>
+									<p>Password: <input type = "password" name = "password" size ="15" maxlength="30"/></P>
+								</form>	
+							</div>
+							<div class = "modal-footer">
+								<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+								<a href="#send" class = "btn btn-primary" data-toggle = "modal" onclick="myFunction()"
+									class = "btn btn-primary" data-dismiss = "modal" class = "btn btn-primary" data-dismiss = "modal">Enter</a>
+							</div>	
+						</div>
 					</div>	
-				</div>	
-			</div>	
-			<script src="js/bootstrap.js"></script>
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+				</div>
+				
+				<div class = "modal fade" id = "send" role = "dialog">
+					<div class = "modal-dialog">
+						<div class = "modal-content">
+							<div class = "modal-header">
+								<h4 id="SignUp-header">Sign Up</h4>
+							</div>
+							<div class = "modal-body">
+								<form>
+									<p class = "SignUp">Thank you! You will now recieve a lifetime supply of emails!</P>
+									
+								</form>	
+							</div>
+							<div class = "modal-footer">
+								<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+								
+							</div>	
+						</div>
+					</div>	
+				</div>
+			<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+
+$(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pause:'hover',
+    interval: 6000,
+  });
+});
+				
+			
+</script>
     </body>
 </html>
 
