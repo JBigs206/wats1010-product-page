@@ -61,18 +61,7 @@ background-color:#022164;
 .SignUp{
 	text-align:center;
 }
-/*.header{
-	display: block;
-	text-align: center;
-	margin: 50px;
-	padding: 50px;
-	
-}*/
-/*.container{
-	display: inline-block;
-  float: none;
-  vertical-align: top;
-}*/
+
 
 .slide-center-out 
 {
@@ -219,47 +208,6 @@ ul{
 }
 
 
-#left{
-	padding-left: 200px;
-}
-
-#right{
-	padding-left: 800px;
-}
-
-/*
-blockquote {
-font-family: Georgia, serif;
-font-size: 18px;
-font-style: italic;
-width: 1200px;
-margin: 0.25em 65px;
-padding: 0.25em 40px;
-line-height: 1.45;
-position: relative;
-}
-
-
-blockquote:before {
-display: block;
-content: "\201C";
-font-size: 80px;
-position: absolute;
-left: 160px;
-top: -20px;
-color: #7a7a7a;
-}
-
-#right blockquote:before {
-display: block;
-content: "\201C";
-font-size: 80px;
-position: absolute;
-left: 600px;
-top: -20px;
-color: #7a7a7a;
-}
-*/
 
 #quote-carousel 
 {
